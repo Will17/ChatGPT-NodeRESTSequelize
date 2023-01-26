@@ -1,0 +1,30 @@
+{
+  "name": "chatgpt-noderestsequelize",
+  "version": "1.0.0",
+  "description": "A REST API for interacting with a MySQL database using Node.js and Sequelize.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Will17/ChatGPT-NodeRESTSequelize.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Will17/ChatGPT-NodeRESTSequelize/issues"
+  },
+  "homepage": "https://github.com/Will17/ChatGPT-NodeRESTSequelize#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
